@@ -1,4 +1,4 @@
-# Fixed Assets Management System
+# Basic Fixed Asset Management System
 This is a first draft of a python script. My goal is to eventually build a fixed assets management system that generates QR codes to make data storage and acessibility
 easier for accountants.
 

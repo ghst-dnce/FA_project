@@ -2,17 +2,20 @@
 This is a first draft of a python script. My goal is to eventually build a fixed assets management system that generates QR codes to make data storage and acessibility
 easier for accountants.
 
-Overview
+Overview:
+
 The Fixed Assets Management System is a Python application that allows you to manage information about fixed assets of a company. 
 It enables you to store data related to each fixed asset, such as Asset ID, Asset Name, Asset Type, Acquisition Date, Original Cost, Useful life, and Depreciation per month. 
 Additionally, the application can generate QR codes for each fixed asset, which can be scanned to retrieve asset information.
 
 Features:
+
 Add new fixed assets with relevant details to your fixed asset ledger
 Generate QR codes for each fixed asset.
 Store asset information in a CSV file for easy access and retrieval.
 
 Installation:
+
 Clone the repository to your local machine.
 Make sure you have Python 3.x installed.
 Install the required libraries using pip:
@@ -21,6 +24,7 @@ pip install python-csv
 Place the CSV file containing fixed asset data (e.g., "FA_simulated_07.26.23.csv") in the same directory as the Python script.
 
 Usage:
+
 Run the Python script "fixed_assets.py" using the terminal or your preferred Python development environment.
 The application will load the fixed asset data from the CSV file.
 Follow the on-screen instructions to perform various actions, such as adding new fixed assets or generating QR codes.
